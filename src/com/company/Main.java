@@ -25,38 +25,3 @@ public class Main {
 
     }
 }
-
-        /*
-
-        int count = 0;
-        int sum = 0;
-
-        for(int i = 1; i < 100; i++) {
-            if ((i % 3 == 0) && (i % 5 == 0)) {
-                count++;
-                System.out.println("number = " + i);
-                sum += i;
-            }
-            if(count == 5){
-                break;
-            }
-        }
-    System.out.println(sum);
-    }
-}
-/*
-for(int number = 1; number < 100; number++) {
-        if (number % 3 == 0 && number % 5 == 0) {
-        System.out.println("number = " + number);
-        }
-        }
-
-PSEUDO CODE - CounterApp                                            count       number
-    for loop -> number +1                                   1.          0           0
-        int count = 0                                       2.          0           0
-        if number -> TRUE             -> %3 && %5           3.          0           0
-            for loop -> count +1                            4.          1           15
-                if count < 5          -> count < 5          5.          1           15
-                    break                                   6.          1           15
-*/
-
